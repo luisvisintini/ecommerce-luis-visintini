@@ -14,8 +14,8 @@ import {
   FaTimes,
   FaHome,
   FaUserAlt,
-  FaBriefcase,
-  FaGlasses,
+  FaWineBottle,
+  FaMailBulk,
 } from "react-icons/fa";
 import { IconContext } from "react-icons"; //--> mismos estilos a todos los iconos, pasamos provider y value para definir el estilo
 
@@ -40,7 +40,7 @@ const Navbar = () => {
               <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
                 <div>
                   <FaHome />
-                  HOME
+                  INICIO
                 </div>
               </MenuItemLink>
             </MenuItem>
@@ -48,23 +48,23 @@ const Navbar = () => {
               <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
                 <div>
                   <FaUserAlt />
-                  ABOUT ME
+                  SOBRE NOSOTROS
                 </div>
               </MenuItemLink>
             </MenuItem>
             <MenuItem>
               <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
                 <div>
-                  <FaBriefcase />
-                  PORTFOLIO
+                  <FaWineBottle />
+                  LIQUIDOS
                 </div>
               </MenuItemLink>
             </MenuItem>
             <MenuItem>
               <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
                 <div>
-                  <FaGlasses />
-                  CONTACT ME
+                  <FaMailBulk />
+                  CONTACTO
                 </div>
               </MenuItemLink>
             </MenuItem>
